@@ -1,0 +1,136 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-principal {
+    background-color: #252323;
+    height: 110px;
+    width: 100%;
+}
+
+.col-100 {
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#logo {
+    float: left;
+    margin-top: 3px;
+}
+
+.redes-sociais ul {
+    margin: 0;
+}
+
+.redes-sociais ul li {
+    float: right;
+    margin-left: 27px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+}
+
+#barra-navegacao {
+    margin-top: -10px;
+    height: 55px;
+    border-bottom: #efefef 2pt solid;
+}
+
+#barra-navegacao header ul {
+    height: 30px;
+    width: 600px;
+    padding-left: 0;
+}
+
+#barra-navegacao ul li {
+    display: inline-block;
+    font-size: 15pt;
+    font-family: Arial;
+    padding: 15px 10px 15px 10px;
+    float: left;
+}
+
+#barra-navegacao ul li a {
+    text-decoration: none;
+    color: #9c9797ef;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial;
+    position: relative;
+}
+
+#barra-pesquisa input {
+    border: solid #d6d6d6 1px;
+    float: right;
+    margin-top: -34px;
+}
+
+#busca {
+    padding: 7px;
+    height: 15px;
+    border: none;
+    background-position: 96%;
+    background-repeat: no-repeat;
+    background-image: url(../img/download.png);
+}
+
+#barra-navegacao ul li:hover {
+    border-bottom: 2pt solid black;
+    height: 25px;
+}
+
+#barra-navegacao ul li a:hover {
+    color: black;
+}
+
+#exibir_redes {
+    background-color: white;
+    height: 400px;
+}
+
+.redes {
+    height: 400px;
+    width: 243px;
+    float: left;
+    border: solid 1px gray;
+    border-bottom: none;
+}
+
+.default {
+    margin: 168px 100px 0px 105px;
+    height: 35px;
+}
+
+.paragrafo_page {
+    text-align: center;
+    font-size: 15pt;
+}
+
+.redes:hover {
+    background-color: #999999;
+
+    margin: 0;
+}
+
+.serviço_e_img {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.img_serviço {
+    border: solid gray 1px;
+    width: auto;
+    height: 100px;
+    float: right;
+}
+
+#copyright {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    color: #aaa9a9;
+}

@@ -1,0 +1,274 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-principal {
+    background-color: #252323;
+    height: 110px;
+    width: 100%;
+}
+
+.col-100 {
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#logo {
+    float: left;
+    margin-top: 3px;
+}
+
+.redes-sociais ul {
+    margin: 0;
+}
+
+.redes-sociais ul li {
+    float: right;
+    margin-left: 27px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+}
+
+#barra-navegacao {
+    margin-top: -10px;
+    height: 55px;
+    border-bottom: #efefef 2pt solid;
+}
+
+#barra-navegacao header ul {
+    height: 30px;
+    width: 600px;
+    padding-left: 0;
+}
+
+#barra-navegacao ul li {
+    display: inline-block;
+    font-size: 15pt;
+    font-family: Arial;
+    padding: 15px 10px 15px 10px;
+    float: left;
+}
+
+#barra-navegacao ul li a {
+    text-decoration: none;
+    color: #9c9797ef;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial;
+    position: relative;
+}
+
+#barra-pesquisa input {
+    border: solid #d6d6d6 1px;
+    float: right;
+    margin-top: -34px;
+}
+
+#busca {
+    padding: 7px;
+    height: 15px;
+    border: none;
+    background-position: 96%;
+    background-repeat: no-repeat;
+    background-image: url(../img/download.png);
+}
+
+#barra-navegacao ul li:hover {
+    border-bottom: 2pt solid black;
+    height: 25px;
+}
+
+#barra-navegacao ul li a:hover {
+    color: black;
+}
+
+.slider-principal {
+    width: 100%;
+    height: auto;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/arrowleft.png);
+    top: 40%;
+    left: 14%;
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/arrowright.png);
+    top: 40%;
+    right: 14%;
+    cursor: pointer;
+}
+
+.slick-list {
+    width: 100%;
+}
+
+.slick-initialized {
+    overflow: visible;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #252323;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin-top: -60px;
+    z-index: 9;
+    position: absolute;
+    left: 41%;
+}
+
+li.slick-active button {
+    background: #524c4d;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+#abaixobanner {
+    background-color: white;
+    height: 545px;
+    width: 100%;
+    text-align: center;
+}
+
+#setinha {
+    margin-bottom: -5px;
+    margin-left: 410px;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-top: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #818181;
+    font-size: 30px;
+}
+
+h1 strong {
+    color: #646464;
+}
+
+.paragrafo_default {
+    color: #9a9a9a;
+    font-size: 15px;
+}
+
+.col-3 {
+    top: 20px;
+    margin: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.col-3 img {
+    height: 112px;
+    width: 108px;
+}
+
+h3 {
+    color: #818181;
+}
+
+h3 strong {
+    color: #646464;
+}
+
+#galeria {
+    height: 535px;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+
+.divisao_img {
+    width: 25%;
+    display: inline-block;
+    border: solid 1px #c5c5c5;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+
+.divisao_img img {
+    width: auto;
+    height: 180px;
+    margin-left: 30px;
+}
+
+.frase_img {
+    height: auto;
+    width: auto;
+    color: #9a9a9a;
+    font-size: 15px;
+    margin: 5px 15px 5px 15px;
+}
+
+#patrocinadores {
+    margin: 0 auto;
+    height: 180px;
+    align-items: center;
+}
+
+.img_pratrocinadores {
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 45px;
+}
+
+#pré_footer {
+    height: 300px;
+    background-color: #524c4d;
+}
+
+.tags_préfooter {
+    display: inline-block;
+    width: 245px;
+    float: right;
+    height: 300px;
+}
+
+.title_préfooter {
+    font-size: 20pt;
+    font-weight: 100;
+    color: white;
+}
+
+.paragrafo_default_préfooter {
+    color: #898c8c;
+}
+
+#copyright {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    color: #aaa9a9;
+}
